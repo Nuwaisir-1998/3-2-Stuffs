@@ -2,7 +2,10 @@ Socket is not 'uniquely, uambiguously identified' only by the IP address and por
 (read : https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket)
 
 What I understand is, suppose my PC's port 6666 is connected with another PC's (call it server's) port 80.
-another connection is established between my PC's port 6667 and server's port 80. So, for the first connection mentioned here, there are two sockets, such as, (my_ip, 6666) and (server's ip, 80). And for the connection number 2, there are two sockets which are identified by (my_ip, 6667) and (server's ip, 80). 
+another connection is established between my PC's port 6667 and server's port 80. So, for the first connection mentioned here,
+ there are two sockets, such as, (my_ip, 6666) and (server's ip, 80). And for the connection number 2,
+ there are two sockets which are identified by (my_ip, 6667) and (server's ip, 80). 
 
 So, we see, there are 2 connections having 4 sockets (2 sockets per connection at each end of a connection).
-But the server side sockets both have the same ip address and port number! But they are not the same socket! That is why, port number and ip address does not uniquely identify a socket.
+But the server side sockets both have the same ip address and port number! But they are not the same socket!
+ That is why, port number and ip address does not uniquely identify a socket.
