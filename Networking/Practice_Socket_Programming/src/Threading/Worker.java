@@ -19,9 +19,11 @@ public class Worker extends Thread{
             ObjectInputStream in = new ObjectInputStream(this.socket.getInputStream());
             while (true)
             {
+                System.out.println("Sent");
                 Thread.sleep(1000);
                 Date date = new Date();
                 out.writeObject(date.toString());
+
 //                String str = sc.nextLine();
 //                out.writeObject(str);
             }
