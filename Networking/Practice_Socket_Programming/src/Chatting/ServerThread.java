@@ -36,9 +36,9 @@ public class ServerThread extends Thread {
 //                        OutputStream os = socket.getOutputStream();
 //                        os.write(msg.getBytes());
 //                        System.out.println("kaj korar kotha");
-                        System.out.println("hoom dhukse");
+
                         socketDetails.getObjectOutputStream().writeObject(msg);
-                        System.out.println("kaj korar kotha");
+
                         break;
                     }
                 }
