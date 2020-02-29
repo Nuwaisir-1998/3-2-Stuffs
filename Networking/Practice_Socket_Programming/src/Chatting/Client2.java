@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Client2 {
     public static void main(String[] args) throws IOException {
+
         Socket socket = new Socket("localhost", 6667);
         System.out.println("Connection established.");
         ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream());

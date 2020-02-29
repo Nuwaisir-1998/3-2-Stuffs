@@ -5,12 +5,17 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 public class ServerThread extends Thread {
-    Socket socket;
+    //Socket socket;
     static ArrayList<SocketDetails> socketList = new ArrayList<>(100);
     SocketDetails socketDetails;
-    ServerThread(Socket socket) throws IOException {
-        this.socket = socket;
-        socketDetails = new SocketDetails(socket);
+//    ServerThread(Socket socket) throws IOException {
+//        this.socket = socket;
+//        socketDetails = new SocketDetails(socket);
+//        socketList.add(socketDetails);
+//    }
+
+    ServerThread(SocketDetails socketDetails) throws IOException {
+        this.socketDetails = socketDetails;
         socketList.add(socketDetails);
     }
 
@@ -18,7 +23,7 @@ public class ServerThread extends Thread {
         try {
             ObjectInputStream in = null;
             for(SocketDetails socketDetails : socketList){
-                if(socketDetails.getSocket().getPort() == socket.getPort()){
+                if(socketDetails.getSocket().getPort() == this.socketDetails.getSocket().getPort()){
                     in = socketDetails.getObjectInputStream();
                 }
             }
@@ -28,7 +33,7 @@ public class ServerThread extends Thread {
                 System.out.println(msg);
 
                 for(SocketDetails socketDetails : socketList){
-                    if(socketDetails.getSocket().getPort() != this.socket.getPort()){
+                    if(socketDetails.getSocket().getPort() != this.socketDetails.getSocket().getPort()){
 //                        ObjectOutputStream out2 = new ObjectOutputStream(socket.getOutputStream());
 //                        out2.writeObject(msg);
 //                        System.out.println("hoom dhukse");

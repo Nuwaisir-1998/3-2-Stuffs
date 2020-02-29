@@ -12,8 +12,10 @@ public class Server {
             Socket socket = serverSocket.accept();
             System.out.println("Connection established.");
             System.out.println("Remote port : " + socket.getPort());
-
-            Thread connection = new ServerThread(socket);
+            SocketDetails socketDetails = new SocketDetails(socket);
+            Thread messageFromServer = new MessageFromServer(socketDetails);
+            messageFromServer.start();
+            Thread connection = new ServerThread(socketDetails);
             connection.start();
         }
     }
