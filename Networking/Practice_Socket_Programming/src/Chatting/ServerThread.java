@@ -50,7 +50,7 @@ public class ServerThread extends Thread {
 
             }
         } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("ekta client off");
         }
     }
 }
