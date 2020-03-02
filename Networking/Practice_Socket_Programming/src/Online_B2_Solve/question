@@ -1,0 +1,5 @@
+exactly 2 ta client, ektar nam sender, arekta receiver.  first e both 
+client connected hobe, and connect howar por ekta message pathabe j omuk 
+client connected. Then sender server er through receiver k message pathabe. 
+jodi message pathano successful hoy, tahole server sender k ekta 
+confirmation message dibe like '1' if successful,  otherwise '0'.
