@@ -26,7 +26,7 @@ done
 echo "$header","Tot","Avg","Grade" >> out.csv
 for ff in *
 do
-	first=`echo $ff | cut -c 1` # eta ektu baje hoye gese(just dekhsi filename 1 diye start hoy kina :3 valo way te koro
+	first=`echo "$ff" | cut -c 1` # eta ektu baje hoye gese(just dekhsi filename 1 diye start hoy kina :3 valo way te koro
 	if [ "$first" = 1 ]; then
 #		echo "$ff"
 		to_csv="$ff"
