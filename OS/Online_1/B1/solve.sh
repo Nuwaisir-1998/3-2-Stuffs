@@ -42,9 +42,9 @@ do
 		
 		if [ "$avg" -ge "80" ];then
 			grade=A
-		elif [ "$avg" -ge "60" ] && [ "$avg" -lt "80" ]; then
+		elif [ "$avg" -ge "60" ]; then
 			grade=B  	
-		elif [ "$avg" -ge "40" ] && [ "$avg" -lt "60" ]; then
+		elif [ "$avg" -ge "40" ]; then
 			grade=C  
 		elif [ "$avg" -lt "40" ]; then
 			grade=F  		
