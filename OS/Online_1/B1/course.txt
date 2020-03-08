@@ -1,0 +1,3 @@
+physics
+math
+CSE100
