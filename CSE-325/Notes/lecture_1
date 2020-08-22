@@ -1,0 +1,65 @@
+Lecture - 1:
+Discussion mainly.
+Sir suggests to start project work.
+
+Assignment will be given, 6-member groups.
+deadline : September 5.
+
+Heading: Design of a Supply Chain Management System For a Country Wide Health Sector Infrasturctures to Ensure Transparency, Accountability.
+
+Description: 
+Corruption in the health sector is common now. What are the kinds of corruption?
+Aniruddha says, recently saw a news report, mota dage 3 dhoroner durniti:
+1. Bivinno shorkari medical upgrade korte gele thikadar der niyog deya hoy, eta bishal source of corruption. Beshi budget dekhay tender ney, kom dami jinish dey. Even hospital er director der bodli kora hoise thikadar der against e gele.
+2. Pharmaceuticals sector.
+3. Hospital staffs der jonno nana funding thake, shei khetreo durniti hoy, not only thikadar...
+jemon, mask, ppe etc. er j funding shetateo osshavabik funding ba kom dami jinish deya hocche.
+
+Sir says, onek gula problem thakbe, tar moddhe , software system er maddhome amra ki ki improve korte parbo? Kichu khetre lack of info thake, shobar kase info thake na. 
+Information system er kaj hocche, onek beshi manush er kase information pouchay deya. like block chain
+Information onek joner kase gele corruption difficult. 
+So, information shundor vabe ene propagate kora important.
+Kono suspicious actvity hole shetake ber kore ana...
+
+1. So, relevant information k useful way te available kora important.
+
+2. Auditability(ba ei type kisu ekta bolsen): 
+Todonto committee goes to the ashami... So, difficult :3
+Emon vabe jinish ta record thakte hobe, jate kore bujha jay, k responsible.
+k responsible eta ber kora problem hoye jay. System emon vabe banate hobe, jate keu osshikar na korte pare.
+
+3. Supplier driven purchase or supply demand demand: 
+Eta ekta problem. Example, ekjon eshe bollo 10k ambulance dibe, eta asholei lagbe kina, lagleo amar shamortho ase kina, shegula... abar, ventilator deya hoise but jothojotho nurse nai...egula problem identify korar ability thakte hobe.
+Kono ovijog ashle, tokhon kauke dayi kora jay na, ek jon onek kothai bolte pare, ei jhamela avoid korar way ki? kono khane jinishta pathanor age amake confirm korte hobe j tader shei bebostha ase kina. So, jekhane pathabo shetar relevant data thakte hobe. taile responsible kora jabe ekjon k... jinishta pathanor shomoy hoyto ekta print copy thakbe j ami pathacchi, acknowledgment shoho. abar arek case, icu expert ase, but she chole jabe 6 mash por....ei info gulao thakte hobe...so equipment bebohar korar lok thakta hobe, or jekhane lok ase shekhane jinish pathate hobe.
+
+4. Normal Assumption is beshir vag manush honest. but...
+Clustarization. kichu bishoyer upor vitti kore. jemon, ponchogor and manikgor same cluster. jodi inconsistency thake, tahole dekhte hobe keno? like, ponchogor e hothat ekdin consumption bere gelo...eta reported hoite hobe. onek boro system manually moderate impossible, tai emon ekta system dara koraite hobe jate kono ultapalta kahini (anomaly) hoile reported hoy.
+kono suspicious kisu hoile immediately jodi info ta main jaygay jaito then valo hoito...corruption hide kora difficult hobe then. (hallmark kelenkari) 
+
+Central ar peripheral component er moddhe logistic difference o mathay ante hobe.
+
+Rules can be configerable.
+
+Violatoin of rule hole system hoyto block kore dite parbe.
+
+System abar learn o korte pare... like word suggestion... jemon ei khetre kono ekta jaygay maleria beshi hoite thakle hoyto system bujhe nibe je eta ekta boishishto oi jaygay...eta ekhon kar kaj na i guess...
+
+BPMN and use case 5th September er moddhe design korte hobe. parle newspaper, doctor etc der shathe kotha bole etc etc.
+
+It is basically supply chain management. eta niye porte hobe.
+
+-------------------------------------------------------------------------------
+
+term project maybe change kora jabe (colsult lab teachers).
+
+-------------------------------------------------------------------------------
+Another thing...
+recruitment system :
+problems:
+1. program evaluate kora
+2. copy checker
+3. partial evaluation (partial marks deya arki)
+
+jader edike interest ase, tara edikeo emphasize korte pare.
+
+Next class: Non functional requirement niye discussion.

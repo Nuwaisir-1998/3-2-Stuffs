@@ -1,0 +1,33 @@
+Adversarial Search:
+Multiple agents operates in the same field.
+
+Typical Assumptions:
+1. Two agents whose actions alternate.
+2. One agent tries to create adverse situtation for the other agent
+3. Environment is fully observable
+4. see slide...
+
+Search vs Games:
+Search - no adversary, Games - adversary
+see slide.
+
+For games, strategy may change depending on the function of the opponent
+For search, finding optimal solution is easy, as no adversary thing is there.
+For games, as there is a time limit, approximate solution is found.
+Evaluation function evaluates goodness of the game position.
+
+slide 4:
+"Chance" mean: not deterministic (maybe luck)
+"Imperfect information" means: opposite agent doesn't know one's state. So, imperfection is inevitable.
+
+Max Min Game:
+It is a category of games.
+Two players play, one is MAX and other is MIN. They takes turns alternately. MAX goes first. 
+Max tries to score as much as possible, and MIN tries to minimize that.
+
+One example is tic tac toe game :)
+
+branching factor: How many branches generate from a node.
+number of moves by both player: depth of the search tree.
+Search tree size : b^d
+
