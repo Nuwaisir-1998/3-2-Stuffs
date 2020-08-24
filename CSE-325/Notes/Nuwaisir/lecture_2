@@ -1,0 +1,8 @@
+Lecture - 2:
+Minimax Algorithm
+
+Alpha - beta pruning:
+2 different strategies for the 2 players, hence the name.
+
+How does the algorithm know what to prune?
+ML algorithms...learning the common features. :3

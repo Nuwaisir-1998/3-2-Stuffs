@@ -20,7 +20,7 @@ only thikadar...
 jemon, mask, ppe etc. er j funding shetateo osshavabik funding ba kom dami 
 jinish deya hocche.
 
-Sir says, onek gula problem thakbe, tar moddhe , software system er maddhome 
+Sir says, onek gula problem thakbe, tar moddhe, software system er maddhome 
 amra ki ki improve korte parbo? Kichu khetre lack of info thake, shobar kase 
 info thake na. 
 Information system er kaj hocche, onek beshi manush er kase information pouchay 
@@ -31,7 +31,7 @@ Kono suspicious actvity hole shetake ber kore ana...
 
 1. So, relevant information k useful way te available kora important.
 
-2. Auditability(ba ei type kisu ekta bolsen): 
+2. Auditability (ba ei type kisu ekta bolsen): 
 Todonto committee goes to the ashami... So, difficult :3
 Emon vabe jinish ta record thakte hobe, jate kore bujha jay, k responsible.
 k responsible eta ber kora problem hoye jay. System emon vabe banate hobe, jate 
@@ -40,25 +40,26 @@ keu osshikar na korte pare.
 3. Supplier driven purchase or supply demand demand: 
 Eta ekta problem. Example, ekjon eshe bollo 10k ambulance dibe, eta asholei 
 lagbe kina, lagleo amar shamortho ase kina, shegula... abar, ventilator deya 
-hoise but jothojotho nurse nai...egula problem identify korar ability thakte 
+hoise but jothajotho nurse nai...egula problem identify korar ability thakte 
 hobe.
 Kono ovijog ashle, tokhon kauke dayi kora jay na, ek jon onek kothai bolte pare, 
-zei jhamela avoid korar way ki? kono khane jinishta pathanor age amake confirm 
+ei jhamela avoid korar way ki? kono khane jinishta pathanor age amake confirm 
 korte hobe j tader shei bebostha ase kina. So, jekhane pathabo shetar relevant 
 data thakte hobe. taile responsible kora jabe ekjon k... jinishta pathanor 
 shomoy hoyto ekta print copy thakbe j ami pathacchi, acknowledgment shoho. abar 
 arek case, icu expert ase, but she chole jabe 6 mash por....ei info gulao thakte
- hobe...so equipment bebohar korar lok thakta hobe, or jekhane lok ase shekhane 
- jinish pathate hobe.
+hobe...so equipment bebohar korar lok thakte hobe, or jekhane lok ase shekhane 
+jinish pathate hobe.
 
 4. Normal Assumption is beshir vag manush honest. but...
-Clustarization. kichu bishoyer upor vitti kore. jemon, ponchogor and manikgor 
-same cluster. jodi inconsistency thake, tahole dekhte hobe keno? like, ponchogor
- e hothat ekdin consumption bere gelo...eta reported hoite hobe. onek boro 
- system manually moderate impossible, tai emon ekta system dara koraite hobe 
- jate kono ultapalta kahini (anomaly) hoile reported hoy.
+Clustarization, kichu bishoyer upor vitti kore. Jemon, ponchogor and maniknogor 
+same cluster (maybe jonoshokhya, weather, area, etc. er upor vitti kore). jodi 
+inconsistency thake, tahole dekhte hobe keno? like, ponchogor e hothat ekdin 
+consumption bere gelo...eta reported hoite hobe. onek boro system manually 
+moderate impossible, tai emon ekta system dara koraite hobe jate kono ultapalta 
+kahini (anomaly) hoile reported hoy.
 kono suspicious kisu hoile immediately jodi info ta main jaygay jaito then valo 
-hoito...corruption hide kora difficult hobe then. (hallmark kelenkari) 
+hoito...corruption hide kora difficult hobe otherwise. (Hallmark kelenkari) 
 
 Central ar peripheral component er moddhe logistic difference o mathay ante 
 hobe.
@@ -69,12 +70,12 @@ Violatoin of rule hole system hoyto block kore dite parbe.
 
 System abar learn o korte pare... like word suggestion... jemon ei khetre kono 
 ekta jaygay maleria beshi hoite thakle hoyto system bujhe nibe je eta ekta 
-boishishto oi jaygay...eta ekhon kar kaj na i guess...
+boishishto oi jaygar...eta ekhon kar kaj na i guess...
 
-BPMN and use case 5th September er moddhe design korte hobe. parle newspaper, 
-doctor etc der shathe kotha bole etc etc.
+BPMN and Use Case Diagram 5th September er moddhe design korte hobe. parle 
+newspaper, doctor etc. der shathe kotha bole etc. etc.
 
-It is basically supply chain management. eta niye porte hobe.
+It is basically Supply Chain Management. eta niye porte hobe.
 
 -------------------------------------------------------------------------------
 
