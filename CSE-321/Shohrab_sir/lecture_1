@@ -1,0 +1,41 @@
+Lecture_1:
+read 5.6 (Tanen)
+Chapter 5:
+
+Switching
+
+-Circuit Switching (1G / 2G / 3G)
+-Packet Switching
+
+Circuit Switching : Dedicated communication path between two stations
+
+
+*********************************************************
+Telco
+1G, 2G, --- Circuit (voice transmission)
+2.5, 2.75, 3G --- Circuit + Packet (keno packet switching ashlo eta bujhte hobe)
+4G => Packet Switching
+*********************************************************
+
+Circuit switching:
+Advantage:
+- Data transfer faster
+- Reduced Header Size (as routing er jonno onek kom info dorkar, karon dedicated
+path)
+- see slide
+
+Disadvantage:
+- No sharing
+- see slide
+
+packets need no intelligence, mane jehetu dedicated path, mane path ektai,
+ejonno packet k rasta chinaite hobe na kindof...so, kom data needed
+
+subscriber loop == local loop (amar basha theke j tar gese, and abar okhan theke
+fire ashse, ei loop ta)
+
+Packet Switching:
+prefered over ciruit switching.
+choto choto packet akare split hobe boro message gula, packet gula bangladesh er
+router e joma hoye, onno desher router e jabe, oi desher router theke abar arek 
+desher router e, and so on.
