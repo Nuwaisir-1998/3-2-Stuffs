@@ -1,8 +1,46 @@
 Lecture - 2:
-Minimax Algorithm
+user theke amra kono likhito detail pabo na...bikkhipto info theke amader real
+jinishpati ber kore anta hobe. It is part of training.
 
-Alpha - beta pruning:
-2 different strategies for the 2 players, hence the name.
+Sub system niye kaj korte hobe, jegula major sub system arki. jemon receive
+kora, han tan...
 
-How does the algorithm know what to prune?
-ML algorithms...learning the common features. :3
+Ruhan asks: initially jokhon amra design korbo, tokhon ki ekta subsystem k use 
+case hishebe chinta korbo?
+answer: 
+
+master data:
+jei data gulo common, shobar jonno, jemon windows os er font size, resolution 
+etc..
+item info, item category, egula master data for a supply chain ...
+ei master data guloke alada vabe handle kora lagbe.
+ei master data manage korar jonno muloto 1 ta use case thake. amra 1 tai rakhbo.
+oto detaile jano na.
+
+class starts:
+OWSP (or OWASP whatever) holo security niye kotha barta hoy emon forum, check 
+that out.
+
+Properties of Secure Software:
+
+Confidentiality:
+- sensitive info encrypted thakbe. keu jate egula access na korte
+pare...hash kore rakha etc. etc.
+
+Integrity:
+- authencity ba bisshashjoggota. jemon, porikkhar number jodi illegaly keu 
+change kore felte pare, taile oi system tar Integrity kom. Eta handle er jonno
+hoyto log rakha hoy (kobe, k, ki change korse). tarpor notification ashe, google
+account e login korle jemon mail ashe.
+
+Availability:
+- kokhono down hobe na. master - slave, etc...
+
+Non-repudiation:
+k ei kaj ta korlo tar ekta proof, jate osshikar korte na pare.
+
+Authencitaion:
+eta ar ki likhbo
+
+slide e dekhi lekhai ase besh kichu...
+
