@@ -1,0 +1,44 @@
+Lecture-2:
+
+Scheduling in Different Systems:
+
+Batch System:
+No real time user. Shob kaj parallelly howa joruri na.
+throughput, turnaround time, cpu utilization maximize/minimie korte chay
+throughput - kaj done per unit time (maximize korar cheshta kora hoy)
+turn around time - submitted time theke finishing time er difference (minimize 
+korar cheshta kora hoy), see example of fcfs.
+
+Interactive systems:
+onek user thakte pare. response time is important. response time is: output na
+dekhate parleo user ke response deya j kaj shuru hoise. Preemption needed, as 
+parallelism dorkar hote pare, ja preemption enable kora chara impossible.
+arekta kaj: proportionality ensure kora, mane kajer size onujai kaj korar time
+fix hobe. ei sense ta holo proportionality. jemon logout korte kom time lagbe.
+
+Real time system:
+deadline meet kora uddessho. ekta time thake (delta t), sheta holo deadline.
+process kora data ei delta t time er moddhe shesh korte hobe.
+predictable hoite hobe. ar behaviour non uniform na. eije delta t time por por 
+output dekhano hocche, output predictable hobe.
+example: game khela, guli korar shathe shathei ber hote hobe.
+
+shob system er target:
+- fairness ensure kora
+- policy enforce kora (kono ekta certain kaj age hoite hobe, then onno gula.
+jemon biis er registration. mane, ekta kaj age hoite hobe, then baki shob 
+parallely cholte parbe, eije ekta kaj age korte hobe, ei decission neya holo 
+policy making)
+
+Batch System Algorithms:
+- non-preemptive (eta majhe moddhe crucial, karon majhe moddhe oneeeek kaj korte
+hoy, ejonno preemptive kore shudhu shudhu kaj switching e time waste korar mane
+hoy na, time period onek lomba hole)
+- preemptive algorithms with long period is acceptable
+
+FCFS(First Come First Serve):
+queue te rakhbo, arki. Very simple.
+
+
+
+

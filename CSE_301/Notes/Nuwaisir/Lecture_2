@@ -1,0 +1,8 @@
+Lecture-2
+Conditional Probability:
+P(E|F) = P(EF) / P(F), P(F) > 0
+Bayes' Theorem:
+see book
+
+assignment:
+(roll % 51) + 1 no. math of chapter 1
