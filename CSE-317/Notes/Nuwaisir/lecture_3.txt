@@ -1,0 +1,5 @@
+Lecture-3:
+Alpha beta pruning.
+
+
+Constraint Satisfaction Problems.
