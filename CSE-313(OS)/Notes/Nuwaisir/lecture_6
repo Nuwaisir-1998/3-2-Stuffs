@@ -1,0 +1,5 @@
+Lecture-6:
+Long-information sharing requirements:
+1. Store large information
+2. Survive termivation (process terminate korar poreo data gula thake)
+3. Concurrent access (multiple process jate ekta file access korte pare)

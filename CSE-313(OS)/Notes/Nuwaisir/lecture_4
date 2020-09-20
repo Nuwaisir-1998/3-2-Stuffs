@@ -1,0 +1,27 @@
+Lecture-4:
+see video.
+
+
+Scheduling algorithms in Interactive systems:
+- interactive system user er shathe interact kore. server er moddhe onek gula 
+socket ase, client er shathe connected hote pare...clients communicate with 
+server (interaction), abar for example, multiple user onek gula terminal theke
+login korlo...ei type er. (PC o interactive, but amra ei case e PC niye vabtesi 
+na)
+
+- we want to minimize response time, not the output time.
+- time is sliced into quantum (time intervals). jemon 20 milisecond por por 
+decide kora hobe, j amra ek process theke onno process e jabo kina
+
+Round Robin:
+
+quantum er value komale cpu er khoroch beshi jabe (context switching korte giye)
+abar quantam boro kore dile onno process er response time onek kome jabe.
+
+
+
+
+
+
+I/O bound process immediately run kora uchit.
+

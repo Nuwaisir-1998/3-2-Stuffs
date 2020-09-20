@@ -1,0 +1,34 @@
+Lecture-7:
+hard disk has logical partitioning
+section 0 of the disk has MBR(Master Boot Record), it executes first.
+Active partition hishebe 1 ta parition marked thake. jeta active shetar moddhe
+OS ase.
+
+Implementing flies:
+- Contiguous allocation (valo performance, principal of locality)
+    -principal of locality -> ekhon jeta access kortesi, er ashepasher element
+    nikot vobisshote abar access howar chance high.
+    ekhetre ek bar disk read kore ekta file fast read kora jay purata, Contiguous
+    na hoile bar bar read kora lagto, so time beshi lagto
+    but most systems do not use this kind of file Implementation (Contiguous)
+    Case : Defragmentation(etar mane ki sure how) -> file er kono block delete 
+    hoile memory te hole toiri hobe.
+    Case : emon system jetay, ekbar write korle ar kono change kori na, shetay
+    contiguous allocation kora hoy, jemon CD te, karon ekhane delete kora lage na
+
+- Linked List allocation:
+    -Linked list of file blocks. 
+    shubidha: 
+    - No memory holes. every block usable.
+    - Only need to stroe first block
+    oshubidha:
+    - poor random access
+    - pointer er jonno jayga chere dite hocche for each block
+      tai block size not a power on 2
+
+- linked list allocation with in-memory(RAM e) table:
+     This is FAT system
+    - store the pointers in memory ( i -> p[i] -> p[p[i]] -> ... )
+    - this will enable us to use power of 2 for block size.
+
+
