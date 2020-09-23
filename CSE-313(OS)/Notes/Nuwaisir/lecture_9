@@ -1,0 +1,12 @@
+Shared Files:
+Ekjon user arekjon user er ekta file use korte chaile shetar implementatoin ta 
+kemon hobe?
+ - tokhon directory structure ta ar tree nai, DAG hoye jay.
+if directory contains file addresses, then problem hobe.
+
+Solution:
+1. file address NOT in directory
+    put addresses in a data-structure
+2. new file type : LINK type (OS eta dekhe bujhbe eta shortcut type(windows e) er ekta 
+file, link type er file er data hocche path to original file.) 
+

@@ -1,7 +1,7 @@
 Lecture-3:
 FCFS:
 Convoy effect:
-1 ta cpu bound prcess ar onek gula i/o bound process ase, parallely jodi kono
+1 ta cpu bound process ar onek gula i/o bound process ase, parallely jodi kono
 resource utilize na korte pare. jemon CPU, ar I/O 2 ta simulataneously use kora
 jay na jodi, taile shetake bol convoy effect.
 

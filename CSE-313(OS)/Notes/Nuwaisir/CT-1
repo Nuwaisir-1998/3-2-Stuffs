@@ -1,0 +1,158 @@
+Syllabus:
+IPC (inter process communication) 
+and Scheduling
+______________________________________
+
+IPC:
+3 issues:
+1. ekta process arekta process k kamne info pass korbe?
+2. make sure kora j ekta process arekta process er jonno badha hobe na
+3. ekta process er arekta opor dependancy, make ekta run korar jonno arekta age 
+execute hoite hobe, emon.
+
+Race Condition:
+2 or more process are reading or writing some shared data and the final result
+depends on who precisely runs when. Jemon, ekta array er shurur positoin theke 
+integer write kore emon 2 ta process A, B. Array er position point kore emon
+ekta variable ase, jeta shared. First e A ashlo write korte, pointer ta porlo,
+nijer local variable e save korlo, say pointer er value 0, thik tokhon processor
+decide korlo A k shoray B k run koraite, so, B asholo, pointer read korlo, pointer
+er value kintu still 0, karon A update kore nai etake. Then B int write kora 
+shesh korar por A abar ailo, kintu tar local variable e kintu pointer er value 0
+i dekhacche, tai she 0 te write kore chole gelo, tai B process ja likhsilo, sheta
+A process dara overwritten hoye gelo. So... jhamela.
+
+So, 2 ba totodhik process k ekshathe shared variable use korte deya ta ekta 
+problem.
+
+Critical Regions:
+The part of a process where it accesses a shared varible, is called critical
+region.
+Jodi amra emon vabe design korte partam jate kore 2 ba totodhik process kokhono
+ekshathe tader critical region e na thake, tahole amra race condition avoid korte
+parbo. But it is not enough for havin parallel process cooperate correctly and 
+efficiently. We need 4 conditions to hold to have a good solution:
+
+1. No two process maybe simultaneously inside their critical region.
+2. No assumptions maybe made about speeds and the number of CPUs.
+3. No process running outside its critical region may block another process.
+4. No process should have to wait forever to enter its critical region.
+
+Mutual exclusion with busy waiting:
+1. Disabling Interrupts
+2. Lock variables
+3. Strict Alternation
+4. Peterson's solution
+5. TSL
+
+Bistarito:
+1. Disabling Interrupts:
+Just after enering the ciritical region, disable the interrupts. eta korle ki 
+hobe? eta korle clock interrupts cannot occur, and clock interrupt occur na korle 
+process er switching hobe na.
+Comments: 
+    a) Generally, ei approach ta unattractive beacause, user process k
+interrupt turn off kore deyar khomota deyata shubidhar na, jodi emon hoy, je turn
+off korar pore turn on korte gelo vule? 
+    b) Multiprocessor system e ei kahini korle lav nai, karon tumi interrupt
+bondho korteso ekta CPU er. But other CPUs can access the shared data...
+    c) The conclusion is: disabling interrupts is often a useful technique 
+within the operating system itself but is not appropriate as a general mutual 
+exclusion mechanism for user processes.
+
+2. Lock Variables:
+Ei solution e amra dhore nei amader kase ekta shared variable ase (lock name tar).
+Eta kindof ekta boolean flag, jeta bole dibe j critical region e keu ase kina.
+Process eshe dekhlo lock == 0, tar mane critical region e keu nai, so, she lock = 1
+banay diye dhuke gelo, abar ber howar shmoy etake 0 banay dilo.
+Comments:
+    a) etay race condition howa shomvob lock variable update er shomoy. Process
+A jokhon lock read kore nijer local var e rakhlo, thik tokhon CPU process B k dak 
+dilo, B etake change kore dhuke gelo critical region e. ei obosthate A ashle local
+variable check kore dekhbe lock == 0, tai sheo dhuke jabe :(. Ekhon question ashte
+pare, A second bar dhukar shomoy, abar lock er man check kore dekhlei to hoy? nah...
+karon 2nd time check korar shomoyo race hoite pare, like, A read kore 1 pailo, then 
+CPU B k dak dilo, B lock var er value 0 banay bair hoye gelo, kintu A er kache kintu
+lock == 1. :(
+
+3. Strict Alternation:
+Basically alternating turns e 2 ta process critical region e dhuke. Simple C code
+boi e deya ase...
+Busy waiting: Continuously testing a variable until some value appear. Wastes 
+CPU time.
+Comments:
+Not good, when one process is much slower than other, it violates the rule 3, 
+stated earlier "no process running outside critical region should block another 
+process".
+
+4. Peterson's Solution:
+Algorithm:
+
+int interested[2];
+void enter_region(int process){
+    int other = 1 - process;
+    interested[process] = 1; // interchanging this line with the next cause
+                             // any problem? race condition? (Maybe not)
+    turn = process;
+    while(process == turn && intersted[other] == true); // busy waiting
+}
+
+void leave_region(int process){
+    intersted[process] = 0;
+}
+
+This solution solves the mutual exclusion problem, and it doesn't require strict 
+alternation.
+
+5. TSL Instruction:
+TSL RX, LOCK
+TSL (Test and Set Lock) is an instruction, which reads the contents of the memory
+word lock into register RX and then stores a nonzero value at the memory address
+lock. The important thing is, The operations of reading the word and storing into it are guaranteed to be indivisible - no other processor can access the memory word until the instruction is finished. TSL instruction memory bus k atkay dey. 
+Interrupt call howa, ar memory bus lock kore deya totally different. memory bus 
+lock kore dile onnanno process o ar critical region e dhukte parbe na, so, race 
+condition avoided.
+
+enter region:
+    TSL REGISTER,LOCK       | copy lock to register and set lock to 1
+    CMP REGISTER,#0         | was lock zero?
+    JNE enter region        | if it was not zero, lock was set, so loop
+    RET                     | return to caller; critical region entered
+leave region:
+    MOVE LOCK,#0            | store a 0 in lock
+    RET
+________________________________________________________________________________
+
+Sleep and Wakeup:
+Consider a computer with two processes, H, with high priority, and L, with
+low priority. The scheduling rules are such that H is run whenever it is in ready
+state. At a certain moment, with L in its critical region, H becomes ready to run
+(e.g., an I/O operation completes). H now begins busy waiting, but since L is never
+scheduled while H is running, L never gets the chance to leave its critical region, so
+H loops forever. This situation is sometimes referred to as the priority inversion
+problem.
+
+
+...
+
+question: semaphore er low level code tate producer er down(empty) ar up(full)
+exchange korle kono problem ase?
+
+
+Monitors: Higher level primitive
+Compiler type er, maked life easier.
+
+Condition variable:
+wait, signal.
+
+
+Message passing:
+solution for distribution systems for achieving shared resource. 
+
+
+
+
+
+
+
+

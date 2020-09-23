@@ -4,7 +4,7 @@ Scheduling in Different Systems:
 
 Batch System:
 No real time user. Shob kaj parallelly howa joruri na.
-throughput, turnaround time, cpu utilization maximize/minimie korte chay
+throughput, turnaround time, cpu utilization maximize/minimie korte chay.
 throughput - kaj done per unit time (maximize korar cheshta kora hoy)
 turn around time - submitted time theke finishing time er difference (minimize 
 korar cheshta kora hoy), see example of fcfs.

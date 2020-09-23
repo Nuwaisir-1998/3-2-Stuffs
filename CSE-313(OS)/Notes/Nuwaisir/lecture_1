@@ -35,6 +35,8 @@ ekta prcess pura lifetime e 70% time idle thake. tahole cpu er utilization
 maximize korte amader 12-14 tar moto process lage (see book).
 
 i/o bound process k immediately run korte deya uchit. (why?)
+karon process burst kom, ashar shathe shathe tar kaj shesh koray deya. then she
+abar io te giye jate io device utilize korte pare.
 
 When to Schedule:
 see slide

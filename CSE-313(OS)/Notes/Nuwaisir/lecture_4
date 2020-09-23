@@ -18,6 +18,41 @@ Round Robin:
 quantum er value komale cpu er khoroch beshi jabe (context switching korte giye)
 abar quantam boro kore dile onno process er response time onek kome jabe.
 
+But round robin e priority er kisu nai, tai amader prority scheduling algorithms
+ase.
+jemon, io bound process dekhle oitar priority high kore dibo.
+
+shortest process next:
+SJF er interactive version anar cheshta. prottek cpu burst ekekta job. 
+jemon ami input dilam:
+ls
+cd
+grep
+cat 
+ekhon kar cpu burst kom hobe, sheta predict korte hobe. Most recent k beshi 
+ogradhikar dibo, ekhane most recent instruction holo cat, tai amra cat k beshi
+value dibo, then grep, then cd,...
+t(n+1) = w * t(n) + (1 - w) * t(n-1)
+
+
+//next class eta
+Guaranteed Scheduling:
+prottek process er jonno ekta ratio maintain kora hoy.
+ratio = (cholse kotokkho) / (kotokkhon cholar kotha)
+ratio kom hoile priority beshi dibo, karon joto cholar kotha toto chole nai.
+eta implement kora ektu difficult.
+
+Lottery Scheduling:
+token diye kahini korbe....
+
+Scheduling in real time system:
+
+
+
+Thread Scheduling:
+Runtime system thread gula niye kaj kore. ar kernel picks a process.
+kernel thread shomporke kisu jane na, just process select kore dey. ar thread 
+er kaj process ta handle kore.
 
 
 
