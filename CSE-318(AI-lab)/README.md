@@ -10,25 +10,25 @@ holo node. Jei course gular moddhe common student ase, shegular moddhe edge diye
 dibo. Then algorithm chalay dibo. Target holo, joto kom shomvob color e color 
 kora jay, then penalty minimize kora.
 ## penalty: 
-gap    penalty
-1       16
-2       8
-3       4
-4       2
-5       1
-...     0
+      gap    penalty
+       1       16
+       2       8
+       3       4
+       4       2
+       5       1
+       ...     0
 
-day - 0 -> slot 0
-day - 1 -> slot 1
-...
-day - i -> slot i
+day - 0 -> slot 0  
+day - 1 -> slot 1  
+...  
+day - i -> slot i  
 _______________________________________
 
 Example:
-Student       Courses
-   1          301, 302
-   2          303
-   3          301, 302
+   Student       Courses
+      1          (301, 302)
+      2          (303)
+      3          (301, 302)
 
 ## Assigning Exams:
 
@@ -65,7 +65,8 @@ total penalty: 16
 ## Constructive Heuristics:
 
 Jei algorithm use kore amra ekta solution construct korbo, ei khetre ekta valid 
-coloring korbo. For example:
+coloring korbo.
+### Heuristics:
  - Largest Degree:
     Shobcheye beshi degree wala take age color korbo (minimum jei color diye 
     kora jabe). eikhetre static node ordering hoilo, mane ki? mane hoilo coloring 
