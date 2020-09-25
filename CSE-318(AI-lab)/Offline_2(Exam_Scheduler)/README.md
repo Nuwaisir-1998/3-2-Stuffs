@@ -113,14 +113,15 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
     er moddhe, tai jekhane inconsistensy ashbe shekhane abar swap korbo...evabe 
     cholte cholte ek shomoy theme jabe. tahole finally jei solution e ashlam,
     shetao arekta valid solution, ekhon kotha hocche amar penalty ki komlo ki na...
+    kempe(u, c[u], j) mane holo u er color c[u] ke er neighbour der ekta color
+    j dara swapping korte thakle, j chain ta pabo, tar length koto hobe.
  - **Pair Swap Operator:**  
     Same color er vertex gula k ekta color class hishebe chinta kori. emon 2 ta 
     color class er color swap kore dibo, jate solution feasible thake. emon 2 ta 
     color class swap korte parle, len(kempe(u,c[u],c[v])) = len(kempe(v,c[v],c[u])) = 1
     hobe, which implies that pair swap kore amara solution ta feasible ase, as 
     kempe korle solution feasible thakei and color swapping kora mane 2 ta kempe 
-    mara... (net e ekta boi e eirokom paisi, link: https://core.ac.uk/download/pdf/151210222.pdf)
-    (ctrl + f diye "Pair-swap Operator" search koro).
+    mara... (uporer link tay giye "Pair-swap Operator" likhe search koro).
 
 ## SWO (Squeaky Wheel Optimization):
 
