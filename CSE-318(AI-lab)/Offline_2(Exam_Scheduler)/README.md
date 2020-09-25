@@ -53,8 +53,8 @@ _______________________________________
 
 ### way 2:
       Day/Slot         Exam
-         0          (301, 303)
-         1           [empty]  
+         0            (301)
+         1            (303)    
          2            (302)  
 
 ### penalty: 
@@ -117,9 +117,9 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
     j dara swapping korte thakle, j chain ta pabo, tar length koto hobe.
  - **Pair Swap Operator:**  
     Same color er vertex gula k ekta color class hishebe chinta kori. emon 2 ta 
-    color class er color swap kore dibo, jate solution feasible thake. emon 2 ta 
-    color class swap korte parle, len(kempe(u,c[u],c[v])) = len(kempe(v,c[v],c[u])) = 1
-    hobe, which implies that pair swap kore amara solution ta feasible ase, as 
+    vertex er color swap kore dibo, jate solution feasible thake. emon 2 ta 
+    vertex er color swap korte para mane, len(kempe(u,c[u],c[v])) = len(kempe(v,c[v],c[u])) = 1
+    hobe, which implies that pair swap kore amar solution ta feasible ase, as 
     kempe korle solution feasible thakei and color swapping kora mane 2 ta kempe 
     mara... (uporer link tay giye "Pair-swap Operator" likhe search koro).
 
