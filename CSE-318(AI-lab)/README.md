@@ -33,32 +33,31 @@ _______________________________________
 ### Assigning Exams:
 
 ### way 1:
-
-day - 0 -> 301, 303  
-day - 1 -> 302  
+      Day/Slot         Exam
+         0          (301, 303)  
+         1              302  
 
 ### penalty: 
     student     penalty
        1          16
        2           0
        3          16 
-total slots  :  2 
-total penalty: 32
+**total slots  :  2**   
+**total penalty: 32**  
 
 ### way 2:
-
-day - 0 -> 301, 303  
-day - 1 -> [empty]  
-day - 2 -> 302  
+      Day/Slot         Exam
+         0          (301, 303)
+         1           [empty]  
+         2            (302)  
 
 ### penalty: 
     student     penalty
        1           8
        2           0
        3           8  
-total slots  :  3 
-total penalty: 16
-
+**total slots  :  3**   
+**total penalty: 16**  
 
 # Solution Scheme:
 
