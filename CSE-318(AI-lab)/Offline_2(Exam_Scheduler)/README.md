@@ -78,9 +78,11 @@ coloring korbo.
     shuru korar agei amra kon order e vertex color korbo, sheta janbo, sheta static 
     thakbe, change hobe na.
  - **DSatur:**  
-    Etar algorithm wikipedia theke dekhe nibo. Eta dynamic node ordering kore.
-    Mane holo, color kora shuru korar agei amra full ordering ta jante parbo na, 
-    algorithm er majhe decide hobe kontar por konta color korbo.
+    **Saturation of a Vertex:** Highest number of colours in a vertice's neighbourhood.
+    ![Pseudocode](Images/dsatur_pseuodocode.PNG)
+    Eta dynamic node ordering kore. Mane holo, color kora shuru korar agei amra 
+    full ordering ta jante parbo na, algorithm er majhe decide hobe kontar por 
+    konta color korbo.
  - **Largest Enrollment:**  
     The largest number of students registered for the examinations is scheduled 
     first.
@@ -101,6 +103,8 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
 ### Heuristics:
 
  - **Kempe-chain Interchange:**  
+    For better understanding: go to https://core.ac.uk/download/pdf/151210222.pdf and 
+    search "kempe".  
     ekta vertex choose korbo, let u be the name, then oi vertex er neighbour der
     moddhe ekta vertex v choose korlam, eta sure je tader color different, as amra
     agei constructive heuristic apply kore solution ber korsi. ebar just u er color
