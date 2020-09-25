@@ -131,8 +131,8 @@ analyzed to find the trouble spots, i.e., those elements, that, if improved, are
 likely to improve the objective function score. The results of the analysis are 
 used to generate new priorities that determine the order in which the greedy 
 algorithm constructs the next solution. This Construct/Analyze/Prioritize cycle 
-continues until some limit is reached, or an acceptable solution is found.
-Source: https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume10/joslin99a-html/swo.html
+continues until some limit is reached, or an acceptable solution is found.  
+**Source:** https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume10/joslin99a-html/swo.html
     
 
     
