@@ -117,7 +117,7 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
     j dara swapping korte thakle, j chain ta pabo, tar length koto hobe.
  - **Pair Swap Operator:**  
     Same color er vertex gula k ekta color class hishebe chinta kori. emon 2 ta 
-    vertex er color swap kore dibo, jate solution feasible thake. emon 2 ta 
+    different color class er vertex er color swap kore dibo, jate solution feasible thake. emon 2 ta 
     vertex er color swap korte para mane, len(kempe(u,c[u],c[v])) = len(kempe(v,c[v],c[u])) = 1
     hobe, which implies that pair swap kore amar solution ta feasible ase, as 
     kempe korle solution feasible thakei and color swapping kora mane 2 ta kempe 
