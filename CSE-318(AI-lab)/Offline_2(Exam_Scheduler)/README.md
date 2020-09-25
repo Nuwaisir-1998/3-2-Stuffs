@@ -8,7 +8,13 @@ majhe gap beshi thake. Gap joto beshi, toto beshi khushi, toto penalty kom (upto
 a limit). So etake amra graph coloring problem e convert korte pari. Course gula 
 holo node. Jei course gular moddhe common student ase, shegular moddhe edge diye 
 dibo. Then algorithm chalay dibo. Target holo, joto kom shomvob color e color 
-kora jay, then penalty minimize kora.
+kora jay, then penalty minimize kora.  
+Amra nijer moto heuristic choose korbo, chaile nije ekta heuristic banabo :grin:.
+Amra jei jei scheme diye korsi, shobgular jonno ekta alada column thakbe and also
+oi scheme er slot count koto hole, penalty 0 hoy, sheta arekta alada column e dekhate 
+pari.
+![title](Images/output.PNG)
+
 ### penalty: 
       gap    penalty
        1       16
@@ -18,10 +24,10 @@ kora jay, then penalty minimize kora.
        5       1
        ...     0
 
-Day - $0$ -> slot $0$  
+Day - 0 -> slot 0  
 Day - 1 -> slot 1  
 ...  
-Day - i -> slot i  
+Day - *i* -> slot *i*  
 _______________________________________
 
 ## Example:
@@ -94,7 +100,7 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
 
 ### Heuristics:
 
- - **Kempe-chain Interchange:**
+ - **Kempe-chain Interchange:**  
     ekta vertex choose korbo, let u be the name, then oi vertex er neighbour der
     moddhe ekta vertex v choose korlam, eta sure je tader color different, as amra
     agei constructive heuristic apply kore solution ber korsi. ebar just u er color
@@ -103,7 +109,7 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
     er moddhe, tai jekhane inconsistensy ashbe shekhane abar swap korbo...evabe 
     cholte cholte ek shomoy theme jabe. tahole finally jei solution e ashlam,
     shetao arekta valid solution, ekhon kotha hocche amar penalty ki komlo ki na...
- - **Pair Swap Operator:**
+ - **Pair Swap Operator:**  
     Same color er vertex gula k ekta color class hishebe chinta kori. emon 2 ta 
     color class er color swap kore dibo, jate solution feasible thake. emon 2 ta 
     color class swap korte parle, len(kempe(u,c[u],c[v])) = len(kempe(v,c[v],c[u])) = 1
