@@ -1,4 +1,4 @@
-General Discussion:
+# General Discussion:
 Kichu course ase, ar kichu student ase, student ra tader iccha moto course e
 enroll korse, k kon course e enroll korse sheta amader jana ase, and kon course
 e koyjon student ase, shetao bola ase. ekhon emon vabe exam schedule korte hobe
@@ -9,7 +9,7 @@ a limit). So etake amra graph coloring problem e convert korte pari. Course gula
 holo node. Jei course gular moddhe common student ase, shegular moddhe edge diye 
 dibo. Then algorithm chalay dibo. Target holo, joto kom shomvob color e color 
 kora jay, then penalty minimize kora.
-penalty: 
+## penalty: 
 gap    penalty
 1       16
 2       8
@@ -30,16 +30,14 @@ Student       Courses
    2          303
    3          301, 302
 
+## Assigning Exams:
 
-
-Assigning Exams:
-
-way 1:
+### way 1:
 
 day - 0 -> 301, 303
 day - 1 -> 302
 
-penalty: 
+## penalty: 
     student     penalty
        1          16
        2           0
@@ -47,13 +45,13 @@ penalty:
 total slots  :  2 
 total penalty: 32
 
-way 2:
+### way 2:
 
 day - 0 -> 301, 303
 day - 1 -> [empty]
 day - 2 -> 302
 
-penalty: 
+## penalty: 
     student     penalty
        1           8
        2           0
@@ -62,9 +60,9 @@ total slots  :  3
 total penalty: 16
 
 
-Solution Scheme:
+# Solution Scheme:
 
-Constructive Heuristics:
+## Constructive Heuristics:
 
 Jei algorithm use kore amra ekta solution construct korbo, ei khetre ekta valid 
 coloring korbo. For example:
@@ -86,7 +84,7 @@ coloring korbo. For example:
  - Random Ordering
     :3
 
-Perturbative Heuristics:
+## Perturbative Heuristics:
 
 Constructive heuristics theke amra ekta solution paisi, ekhon shei solution ta to
 most probably best solution na. Tai amra ekhon cheshta korbo emon solution ta k
@@ -94,7 +92,7 @@ emon vabe change korbo, jate kore solution ta still feasible thake, but coloring
 e hoyto ektu change hoy. Then abar penalty calculate kore dekhbo j asholei kono
 improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
 
-Heuristics:
+### Heuristics:
 
  - Kempe-chain Interchange:
     ekta vertex choose korbo, let u be the name, then oi vertex er neighbour der
@@ -114,7 +112,7 @@ Heuristics:
     mara... (net e ekta boi e eirokom paisi, link: https://core.ac.uk/download/pdf/151210222.pdf)
     (ctrl + f diye "Pair-swap Operator" search koro).
 
-SWO (Squeaky Wheel Optimization):
+## SWO (Squeaky Wheel Optimization):
 
 We describe a general approach to optimization which we term "Squeaky Wheel" Optimization 
 ( SWO). In SWO, a greedy algorithm is used to construct a solution which is then 
