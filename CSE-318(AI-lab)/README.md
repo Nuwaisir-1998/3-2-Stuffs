@@ -9,7 +9,7 @@ a limit). So etake amra graph coloring problem e convert korte pari. Course gula
 holo node. Jei course gular moddhe common student ase, shegular moddhe edge diye 
 dibo. Then algorithm chalay dibo. Target holo, joto kom shomvob color e color 
 kora jay, then penalty minimize kora.
-## penalty: 
+### penalty: 
       gap    penalty
        1       16
        2       8
@@ -24,20 +24,20 @@ day - 1 -> slot 1
 day - i -> slot i  
 _______________________________________
 
-Example:
-   Student       Courses
-      1          (301, 302)
-      2          (303)
-      3          (301, 302)
+## Example:
+      Student       Courses
+         1          (301, 302)
+         2          (303)
+         3          (301, 302)
 
-## Assigning Exams:
+### Assigning Exams:
 
 ### way 1:
 
-day - 0 -> 301, 303
-day - 1 -> 302
+day - 0 -> 301, 303  
+day - 1 -> 302  
 
-## penalty: 
+### penalty: 
     student     penalty
        1          16
        2           0
@@ -47,11 +47,11 @@ total penalty: 32
 
 ### way 2:
 
-day - 0 -> 301, 303
-day - 1 -> [empty]
-day - 2 -> 302
+day - 0 -> 301, 303  
+day - 1 -> [empty]  
+day - 2 -> 302  
 
-## penalty: 
+### penalty: 
     student     penalty
        1           8
        2           0
