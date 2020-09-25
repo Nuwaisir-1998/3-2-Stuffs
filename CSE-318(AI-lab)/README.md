@@ -18,10 +18,10 @@ kora jay, then penalty minimize kora.
        5       1
        ...     0
 
-day - 0 -> slot 0  
-day - 1 -> slot 1  
+Day - $0$ -> slot $0$  
+Day - 1 -> slot 1  
 ...  
-day - i -> slot i  
+Day - i -> slot i  
 _______________________________________
 
 ## Example:
@@ -35,7 +35,7 @@ _______________________________________
 ### way 1:
       Day/Slot         Exam
          0          (301, 303)  
-         1              302  
+         1             (302)  
 
 ### penalty: 
     student     penalty
@@ -66,22 +66,22 @@ _______________________________________
 Jei algorithm use kore amra ekta solution construct korbo, ei khetre ekta valid 
 coloring korbo.
 ### Heuristics:
- - Largest Degree:
+ - **Largest Degree:**  
     Shobcheye beshi degree wala take age color korbo (minimum jei color diye 
     kora jabe). eikhetre static node ordering hoilo, mane ki? mane hoilo coloring 
     shuru korar agei amra kon order e vertex color korbo, sheta janbo, sheta static 
     thakbe, change hobe na.
- - DSatur:
+ - **DSatur:**  
     Etar algorithm wikipedia theke dekhe nibo. Eta dynamic node ordering kore.
     Mane holo, color kora shuru korar agei amra full ordering ta jante parbo na, 
     algorithm er majhe decide hobe kontar por konta color korbo.
- - Largest Enrollment
+ - **Largest Enrollment:**  
     The largest number of students registered for the examinations is scheduled 
     first.
- - Larget Weighted Degree
+ - **Larget Weighted Degree:**  
     The examination with the largest number of students whoare involved in the 
     conflict is scheduled first.
- - Random Ordering
+ - **Random Ordering:**  
     :3
 
 ## Perturbative Heuristics:
@@ -94,7 +94,7 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
 
 ### Heuristics:
 
- - Kempe-chain Interchange:
+ - **Kempe-chain Interchange:**
     ekta vertex choose korbo, let u be the name, then oi vertex er neighbour der
     moddhe ekta vertex v choose korlam, eta sure je tader color different, as amra
     agei constructive heuristic apply kore solution ber korsi. ebar just u er color
@@ -103,7 +103,7 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
     er moddhe, tai jekhane inconsistensy ashbe shekhane abar swap korbo...evabe 
     cholte cholte ek shomoy theme jabe. tahole finally jei solution e ashlam,
     shetao arekta valid solution, ekhon kotha hocche amar penalty ki komlo ki na...
- - Pair Swap Operator:
+ - **Pair Swap Operator:**
     Same color er vertex gula k ekta color class hishebe chinta kori. emon 2 ta 
     color class er color swap kore dibo, jate solution feasible thake. emon 2 ta 
     color class swap korte parle, len(kempe(u,c[u],c[v])) = len(kempe(v,c[v],c[u])) = 1
