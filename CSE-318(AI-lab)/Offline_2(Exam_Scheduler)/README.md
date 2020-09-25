@@ -79,7 +79,7 @@ coloring korbo.
     thakbe, change hobe na.
  - **DSatur:**  
     **Saturation of a Vertex:** Highest number of colours in a vertice's neighbourhood.
-    ![Pseudocode](Images/dsatur_pseuodocode.PNG)
+    ![Pseudocode](Images/dsatur_pseudocode.PNG)
     Eta dynamic node ordering kore. Mane holo, color kora shuru korar agei amra 
     full ordering ta jante parbo na, algorithm er majhe decide hobe kontar por 
     konta color korbo.
