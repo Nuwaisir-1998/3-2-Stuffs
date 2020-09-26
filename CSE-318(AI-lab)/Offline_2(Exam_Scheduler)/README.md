@@ -105,6 +105,7 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
  - **Kempe-chain Interchange:**  
     For better understanding: go to https://core.ac.uk/download/pdf/151210222.pdf and 
     search "kempe".  
+    Eta porle asha kori clear hobe.
     ![title](images/kempe_desc.PNG)
     ![title](images/kempe.PNG)
     <!-- ekta vertex choose korbo, let u be the name, then oi vertex er neighbour der
