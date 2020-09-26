@@ -105,7 +105,9 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
  - **Kempe-chain Interchange:**  
     For better understanding: go to https://core.ac.uk/download/pdf/151210222.pdf and 
     search "kempe".  
-    ekta vertex choose korbo, let u be the name, then oi vertex er neighbour der
+    ![title](images/kempe_desc.PNG)
+    ![title](images/kempe.PNG)
+    <!-- ekta vertex choose korbo, let u be the name, then oi vertex er neighbour der
     moddhe ekta vertex v choose korlam, eta sure je tader color different, as amra
     agei constructive heuristic apply kore solution ber korsi. ebar just u er color
     ar u er neighbour der moddhe jader color v er color er same, swap korbo. 
@@ -114,7 +116,7 @@ improve hoise kina. Hoile to valo, na hoile nai... (Local search korbo arki).
     cholte cholte ek shomoy theme jabe. tahole finally jei solution e ashlam,
     shetao arekta valid solution, ekhon kotha hocche amar penalty ki komlo ki na...
     kempe(u, c[u], j) mane holo u er color c[u] ke er neighbour der ekta color
-    j dara swapping korte thakle, j chain ta pabo, tar length koto hobe.
+    j dara swapping korte thakle, j chain ta pabo, tar length koto hobe. -->
  - **Pair Swap Operator:**  
     Same color er vertex gula k ekta color class hishebe chinta kori. emon 2 ta 
     different color class er vertex er color swap kore dibo, jate solution feasible thake. emon 2 ta 
