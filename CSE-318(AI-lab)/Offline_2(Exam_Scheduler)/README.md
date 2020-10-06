@@ -16,6 +16,10 @@ pari.
 ![title](Images/output.PNG)
 
 ### penalty: 
+
+**You have to calculate penalty for all possible pairs of slots. Not just consecutive
+slots.**
+
       gap    penalty
        1       16
        2       8
