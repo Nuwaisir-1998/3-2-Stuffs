@@ -1,0 +1,66 @@
+Input name,Scheme,Slots,Intitial Penalty, Final Penalty, Total Time (sec.), Total Kempe Chains Discovered
+car-s-91,Largest degree first and stochastic hill climbing,35,11.955,6.25145,122.847,199680,
+car-s-91,Largest degree first and take minimum penalty out of all possible kempe and then a random move,35,11.955,6.09394,195.517,477771,
+car-s-91,Dsatur and stochastic hill climbing,31,12.6945,7.48712,146.041,199768,
+car-s-91,Dsatur and take minimum penalty out of all possible kempe and then a random move,31,12.6945,7.56552,180.292,344909,
+
+car-f-92,Largest degree first and stochastic hill climbing,32,10.3907,5.12427,87.367,199736,
+car-f-92,Largest degree first and take minimum penalty out of all possible kempe and then a random move,32,10.3907,5.09577,117.012,380413,
+car-f-92,Dsatur and stochastic hill climbing,30,9.87746,5.71893,96.0024,199774,
+car-f-92,Dsatur and take minimum penalty out of all possible kempe and then a random move,30,9.87746,5.69396,113.848,315118,
+
+kfu-s-93,Largest degree first and stochastic hill climbing,20,46.6169,16.2759,27.3562,199636,
+kfu-s-93,Largest degree first and take minimum penalty out of all possible kempe and then a random move,20,46.6169,16.3408,21.086,315467,
+kfu-s-93,Dsatur and stochastic hill climbing,19,46.7598,17.0494,27.8771,199631,
+kfu-s-93,Dsatur and take minimum penalty out of all possible kempe and then a random move,19,46.7598,17.9609,19.8574,275492,
+
+tre-s-92,Largest degree first and stochastic hill climbing,22,15.9505,10.5958,42.848,199899,
+tre-s-92,Largest degree first and take minimum penalty out of all possible kempe and then a random move,22,15.9505,10.4885,26.5232,155458,
+tre-s-92,Dsatur and stochastic hill climbing,23,15.6431,9.53141,40.5357,199844,
+tre-s-92,Dsatur and take minimum penalty out of all possible kempe and then a random move,23,15.6431,10.0745,25.4284,161107,
+
+yor-f-83,Largest degree first and stochastic hill climbing,23,65.6472,37.6663,34.0844,199914,
+yor-f-83,Largest degree first and take minimum penalty out of all possible kempe and then a random move,23,65.6472,35.39,19.8882,159460,
+yor-f-83,Dsatur and stochastic hill climbing,20,61.6493,45.8937,38.139,199931,
+yor-f-83,Dsatur and take minimum penalty out of all possible kempe and then a random move,20,61.6493,44.7365,18.7467,108277,
+
+ear-f-83,Largest degree first and stochastic hill climbing,26,70.4444,37.3778,26.201,199886,
+ear-f-83,Largest degree first and take minimum penalty out of all possible kempe and then a random move,26,70.4444,36.5867,22.2726,206672,
+ear-f-83,Dsatur and stochastic hill climbing,23,66.7653,43.5796,31.3333,199928,
+ear-f-83,Dsatur and take minimum penalty out of all possible kempe and then a random move,23,66.7653,43.4062,20.5721,153862,
+
+hec-s-92,Largest degree first and stochastic hill climbing,20,23.8622,9.6362,10.6049,199935,
+hec-s-92,Largest degree first and take minimum penalty out of all possible kempe and then a random move,20,23.8622,9.54729,5.36604,118898,
+hec-s-92,Dsatur and stochastic hill climbing,19,22.5731,11.7067,12.2193,199953,
+hec-s-92,Dsatur and take minimum penalty out of all possible kempe and then a random move,19,22.5731,10.3092,5.10808,102687,
+
+lse-f-91,Largest degree first and stochastic hill climbing,19,28.1416,12.5668,25.1719,199734,
+lse-f-91,Largest degree first and take minimum penalty out of all possible kempe and then a random move,19,28.1416,13.4831,14.7176,204778,
+lse-f-91,Dsatur and stochastic hill climbing,19,29.3415,11.8331,25.9464,199685,
+lse-f-91,Dsatur and take minimum penalty out of all possible kempe and then a random move,19,29.3415,12.2344,14.7349,205614,
+
+pur-s-93,Largest degree first and stochastic hill climbing,38,16.6787,7.83637,332.947,198556,
+pur-s-93,Largest degree first and take minimum penalty out of all possible kempe and then a random move,38,16.6787,8.06506,654.825,1194862,
+pur-s-93,Dsatur and stochastic hill climbing,35,17.2195,8.85049,353.351,198765,
+pur-s-93,Dsatur and take minimum penalty out of all possible kempe and then a random move,35,17.2195,9.06436,631.095,1089670,
+
+rye-s-93,Largest degree first and stochastic hill climbing,25,33.7901,9.26134,40.0475,199604,
+rye-s-93,Largest degree first and take minimum penalty out of all possible kempe and then a random move,25,33.7901,8.98598,37.6282,498654,
+rye-s-93,Dsatur and stochastic hill climbing,22,31.8779,11.5234,47.229,199483,
+rye-s-93,Dsatur and take minimum penalty out of all possible kempe and then a random move,22,31.8779,11.8776,35.8558,384237,
+
+sta-f-83,Largest degree first and stochastic hill climbing,13,200.768,180.553,7.13093,199960,
+sta-f-83,Largest degree first and take minimum penalty out of all possible kempe and then a random move,13,200.768,180.46,3.83481,180958,
+sta-f-83,Dsatur and stochastic hill climbing,13,200.768,180.466,7.22685,199958,
+sta-f-83,Dsatur and take minimum penalty out of all possible kempe and then a random move,13,200.768,180.498,3.8538,180951,
+
+uta-s-92,Largest degree first and stochastic hill climbing,36,7.55695,3.97926,94.3491,199671,
+uta-s-92,Largest degree first and take minimum penalty out of all possible kempe and then a random move,36,7.55695,3.86876,155.417,471572,
+uta-s-92,Dsatur and stochastic hill climbing,31,7.63999,5.12814,120.589,199794,
+uta-s-92,Dsatur and take minimum penalty out of all possible kempe and then a random move,31,7.63999,5.0481,135.747,312245,
+
+ute-s-92,Largest degree first and stochastic hill climbing,11,56.0596,24.4444,15.8118,199841,
+ute-s-92,Largest degree first and take minimum penalty out of all possible kempe and then a random move,11,56.0596,25.3931,7.15992,125747,
+ute-s-92,Dsatur and stochastic hill climbing,10,58.7873,28.704,16.8573,199836,
+ute-s-92,Dsatur and take minimum penalty out of all possible kempe and then a random move,10,58.7873,29.0695,7.08495,98442,
+
